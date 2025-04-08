@@ -27,6 +27,6 @@ public class Motor {
 
     @Override
     public String toString() {
-        return "Motor de modelo: " + modelo + " e cilindrada: " + cilindrada;
+        return "Modelo do motor: " + getModelo() + " e Cilindrada: " + getCilindrada();
     }
 }

@@ -7,7 +7,7 @@ public class Carro {
 
     public Carro(String modelo, int ano) {
         this.modelo = modelo;
-        this. ano = ano;
+        this.ano = ano;
     }
 
     public Motor getMotor() {

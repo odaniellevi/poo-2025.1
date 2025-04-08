@@ -6,7 +6,7 @@ public class ContaBancaria {
 
     public ContaBancaria(String numConta) {
         this.numConta = numConta;
-            this.saldo = 0;
+        this.saldo = 0;
         }
     
         public String getNumConta() {
