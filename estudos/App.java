@@ -3,14 +3,14 @@ package estudos;
 public class App {
     public static void main(String[] args) {
         ContaBancariaFisica cbf1 = new ContaBancariaFisica("Daniel", "123456", "001", 1000, "12345678900");
-
-        cbf1.exibirInformacoes();
+        ContaBancariaJuridica cbj1 = new ContaBancariaJuridica("Marina", "346432", "123", 5000, "345673557588787");
+        cbj1.exibirInformacoes();
 
         try {
-            cbf1.receberPagamento(500);
-        } catch (Exception e) {
+            cbj1.receberPagamento(1700);
+        } catch(Exception e) {
             System.out.println("Valor inválido!");
         }
-        System.out.println("Saldo após recebimento de pagamento: " + cbf1.getSaldo());
+        System.out.println("Saldo após pagamento: " + cbj1.getSaldo());
     }
 }

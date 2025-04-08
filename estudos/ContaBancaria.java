@@ -47,7 +47,7 @@ public class ContaBancaria {
 
     public void exibirInformacoes() {
         System.out.println("Titular: " + titular);
-        System.out.println("Número da cona: " + numConta);
+        System.out.println("Número da conta: " + numConta);
         System.out.println("Agência: " + agencia);
         System.out.println("Saldo: " + saldo);
     }
